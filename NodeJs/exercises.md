@@ -26,6 +26,8 @@
    a. Create a module called **modulo.js** wit the following code
 
    ```javascript
+   // module.js
+   
    function saludar(nombre) {
      console.log(`Hola, ${nombre}!`);
    }
