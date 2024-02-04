@@ -1,7 +1,7 @@
 # NestJs practice
 
 Let's create a basic example of a NestJS TODO API using MongoDB. Before you
-proceed, make sure you have NestJS and MongoDB installed.
+proceed, make sure you have NestJS and [MongoDB installed](./MongoDBSetUp.md).
 
 This example provides the basic CRUD operations for a TODO app. Customize it
 further based on your requirements.
