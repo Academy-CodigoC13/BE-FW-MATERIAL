@@ -1,4 +1,4 @@
-# BE-FW-MATERIAL
+# Gettings started with NodeJs
 
 This is a oficial repository to be used during the development of the backend
 frameworks for javascript topics.
