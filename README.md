@@ -8,12 +8,12 @@ backend development in javascript.
 
 ## Content:
 
-- [instructions to install nodeJS](#install-nodejs)
-- [instructions to install npm](#install-npm)
-- [instructions to install express](#install-express)
-- [instructions to install NestJs](#install-nestjs)
+- [How to install nodeJS in linux](#install-nodejs)
+- [command to install npm](#install-npm)
+- [How to install express in linux](#install-express)
+- [How to install NestJs](#install-nestjs)
 
-### How to install nodeJS in linux: {#install-nodejs}
+### How to install nodeJS in linux:
 
 - command to install nodeJS
 
@@ -21,7 +21,7 @@ backend development in javascript.
 sudo apt-get install nodejs
 ```
 
-- command to install npm
+### command to install npm:
 
 ```bash
 sudo apt-get install npm
@@ -37,7 +37,7 @@ node -v
 npm -v
 ```
 
-### How to install nodeJS in windows: {#install-nodejs-windows}
+### How to install nodeJS in windows:
 
 - Download the installer from the official website
   [http://nodejs.org](http://nodejs.org)
@@ -53,7 +53,7 @@ node -v
 npm -v
 ```
 
-### How to install express in linux: {#install-express}
+### How to install express in linux:
 
 ```bash
 sudo npm install express
@@ -117,3 +117,31 @@ save the installed package as a dependency in the package.json file.
     ```
 
 ### How to install NestJs:
+
+- First, you need to install the Nest CLI globally on your system:
+
+```bash
+npm i -g @nestjs/cli
+```
+
+- Create a new project:
+
+```bash
+nest new my-nest-project
+```
+
+- Move to the newly created directory:
+
+```bash
+cd my-nest-project
+```
+
+- Start the application:
+
+```bash
+npm run start
+```
+
+You should now see the server running on http://localhost:${port}.
+
+note: Please replace my-nest-project with the name of your project.
